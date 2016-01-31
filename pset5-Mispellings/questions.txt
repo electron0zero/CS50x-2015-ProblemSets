@@ -1,0 +1,14 @@
+0.  according to wikipdia this is a english word that refer to a lung disese. and this is the longest word in emglish
+1. getrusage() returns resource usuage for give arguments  
+2. 16 variables in struct rusage in which 14 of them have long datatype and 2 of them have timeval (struct timeval) datatype.
+3. before and after are from rusage struct and we used them to calculating the time taken to load the dictionery and and we storing resource usage before and after the load of dictionery using the function getruage in before and after and we getruage function to get value in before and after and then we sending them for calcultion in calculate function
+4.  according to man page fgetc() reads a character from stream and returns it in from of a unsigned char cast to an int.
+so basically what for loop does is it gets a char from fp stream and then check for EOF to determine that we have somrthing in file or not and incriment c by a char in loop and then inside the loop first we check for that char is only and only alphabetical characters and apostrophes if yes then proceed further and putthat in word (a char array) and incriment it's index then if while doing this if we get index (lengeth of word array) grater then LENGTH (maximum length of a word)
+then drop that word and set index to 0 if no carry on and then we check for char that if it's a digit or not if yes drop it and set index to 0 (right now i have no idea what the while loop in line 89 in speller.c does but i will figure it out \^_^/ ) then we check that we found that word has complited then terminate it by '\0' and check it's spelling and perform banchmark.
+and print summary and that's all we have. ( ^_^ )
+5.  if we use fsacnf then we have to iterate over the word each time to perfrom checks using isalpha(),isalnum(),isdigit() and '/0' can give us some extra trouble while performing checks using above given functions
+6.  const ensure and promise us that he will not change it's value if get a chance to do so. so we wants that they don't in our program in an unwanted manner then to take a promise that they will not change we used const.
+7.  hashtable and inside hash table to avoid coliision i used a chain of linked list when ever a get a new word i appended that a start of my chain at perticular hash postion
+8.  0.16
+9.  i will try to improve my hash function in a manner that it will leave minimum unutilised hashtable positon and lower collision 
+10. my hash function is not good at avoiding collision and i think it have some unutilised hash positions.
