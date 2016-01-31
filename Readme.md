@@ -1,5 +1,5 @@
 # [CS50x 2015] Problem Sets
-These are group of problem sets i did a part of my [CS50x] 2015 
+These are group of problem sets i did as a part of my [CS50x] 2015 
 >actually this is fall 2014 in harvard but it's offered in 2015 at edx.org
 
 # List of Problem Sets
