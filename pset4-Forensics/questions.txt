@@ -1,0 +1,28 @@
+0.  BMP : 32 bit color ( over 40 billian)
+    GIF : 8 bit color (256 color)
+    PNG : 24 bit color (16 millian)
+    JPEG : 24 bit color (16 millian)
+1.  GIF
+2.  loosy compression compress file size while compromising whith image quality(decresing image resolution and loosing high end details), example : jpeg
+and lossless compression reduce file size as much as it can while trying to keep the same image image quality as original, example : png
+3.  gif and jpeg
+4.  when a file is deleted on FAT file system , file system lost trcak of memory location of deleted files those files are still in memory but when sysytem lost track of them and it permits system to rewrite that memory location again.
+5.  rewrite all the free space by '\0'(i.e. NULL) that will overwrite '\0' at all lost memory location of deleted files and we can't recover them back.
+6.  stdint.h is a header file in c and by using it you can define spacifice size and width or limit of your program so when you shift it to other system it doesn't change and your program work well (i.e. maximize portability of your code).
+example : using stdint.h and spacifying width, if your variables and other codes it doesn't change it's behaviour when you shift it from let's say 64 bit system to 32 bit system or 32 bit system to 64 bit system. 
+7.  it will ensure that no matter what system it going to run it's going to use same amount of bytes as spacified, ir we can say it maximize portability of your code and ensure that it won't change it's behaviour on other system using different architacture.
+8.  BYTE is 1 byte, DWORD is 4 bytes, LONG is also 4 bytes, WORD is 2 bytes.
+9.  bitmap magic numbers
+        in HEX : 0x424d
+        in ASCII : B M
+        in decimal : 66 77
+10. biSize : spacifies number of bytes required by structres of bitmap file excluding size of color table and color mask
+    bfSize : total size of bitmap file in bytes
+11. if biHeight is nagative it means that bitap is topdown DIB( device independent bitmap ) and it's origion is upper left corner of image file.
+12. biBitCount in BITMAPINFOHEADER define BMP's color depth.
+13. when fopen can't open a file named in it's argument (i.e. when can't open a file ) then it returns NULL
+14. because we only want to read 1 block of given size at a time.
+15. when we set bi.biwidth to 3 padding is yeild to 3 
+16. fseek() is a c librery function that set curser to provided position. 
+17. SEEK_CUR tells us the current position of file pointer which we used as a referance in fseek().
+18. it's Rob Bowden with a cute cat "-_-"
