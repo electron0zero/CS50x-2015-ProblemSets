@@ -1,0 +1,50 @@
+//result of crack.c program that decryptes password of systemwho used DES attack
+//dict = dictonery attcak
+50yoN9fp966dU
+crimson
+
+belindazeng:50q/EEJnOmtxc
+puzzles
+
+caesar:50zPJlUFIYY0o
+not found via dict attack
+
+jharvard:50yoN9fp966dU
+crimson
+
+malan:50q.zrL5e0Sak
+password
+
+rob:HAYRs6vZAb4wo
+password
+
+zamyla:50NwUtF.OmQNY
+not found via dict attack
+
+caesar:50zPJlUFIYY0o
+not found via dict attack
+
+cs50:50gyRGMzn6mi6
+not found via dict attack
+
+jharvard:50yoN9fp966dU
+crimson
+
+malan:HA610l/.LeOak
+crimson
+
+nate:50AcIG/VnV3D2
+bacon
+
+rbowden:50q.zrL5e0Sak
+password
+
+skroob:50Bpa7n/23iug
+not found via dict attack
+
+tmacwilliam:50WZ/Wy2GdA1Y
+not found via dict attack
+
+zamyla:50lMLvy/mlPIE
+not found via dict attack
+

@@ -1,0 +1,9 @@
+// hello world hacker edition
+#include<stdio.h>
+#include<cs50.h>
+
+int main(void)
+{
+printf("hello, world\n");
+return 0;
+}
